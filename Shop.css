@@ -68,7 +68,7 @@ main{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   height: 100vh;
   padding: 80px;
 }
