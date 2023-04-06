@@ -64,7 +64,7 @@ main{
 }
 
 .bg-image{
-  background: url(imagebb.jpg);
+  background: url(media/imagebb.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
