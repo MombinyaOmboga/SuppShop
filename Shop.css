@@ -1,0 +1,300 @@
+/* Set the background color of the body to white */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  /* Set the font for the website to Arial */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #111;
+  margin: 0;
+  padding: 0;
+}
+
+
+.heading{
+  text-align: center;
+  color: #fff;
+}
+
+.colored{
+  color: green;
+}
+
+.heading .bold{
+  font-weight: 900;
+}
+  /* Style the header */
+header {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 9999;
+  left: 0;
+}
+
+
+main{
+  top: 50px;
+  position: relative;
+}
+  
+.icon{
+  width: 200px;
+  float: right;
+  height: 70px;
+}
+
+.logo{
+  color: green;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  float: right;
+}
+
+.logo .big{
+  color: #ccc;
+}
+
+.bg-image{
+  background: url(imagebb.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100vh;
+  padding: 80px;
+}
+
+
+.Intro{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #fff;
+  font-size: larger;
+  display: inline-block;
+  padding: 15px 25px;
+  height: 50%;
+}
+
+.Intro h2, p{
+  padding: 10px;
+
+}
+
+.btn{
+  padding: 10px 20px;
+  background: green;
+  border: green;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.fa-facebook-square{
+  color: #fff;
+}
+
+.fa-whatsapp{
+  color: #fff;
+}
+
+.fa-instagram {
+  font-size: 2em; /* Set the font size of the icon */
+  border-radius: 10px; /* Set the border radius to create rounded corners */
+  padding: 5px; /* Add some padding to the icon */
+  color: #fff; /* Set the color of the icon */
+  width: 35px;
+}
+
+.Social{
+  position: absolute;
+  bottom: 20px;
+  letter-spacing: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.Social li{
+  list-style: none;
+}
+
+.Social li a{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+  /* Style the navigation menu */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+nav ul li {
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li:hover > a {
+  background-color: #eee;
+  padding: 20px;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #eee;
+  padding: 0;
+}
+
+nav ul ul li {
+  float: none;
+  width: 200px;
+}
+
+nav ul ul a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+nav ul ul a:hover {
+  background-color: #ccc;
+}
+
+nav ul li:hover > ul {
+  display: block;
+}
+
+  /* Style the main content area */
+main {
+  padding: 20px;
+}
+
+
+main li{
+  list-style: none;
+  text-align: center;
+}
+
+h2{
+  border-bottom: none;
+  color: #fff;
+}
+
+
+  /* Style the section heading */
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+  
+  /* Style the supplement list */
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section li {
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+.supp-tile img{
+  width: 1000px;
+  height: 100px;
+}
+
+.container{
+  overflow: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+}
+.supp-tile{
+  width:300px;
+  height:300px;
+  margin:10px;
+  padding:20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: none;
+}
+
+
+.tiles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+
+.contactus {
+  padding: 20px;
+}
+
+.contactus h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #fff;
+  margin-top: -30px;
+}
+
+.contactus ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  
+}
+
+.contactus li {
+  margin-bottom: 20px;
+}
+
+#social{
+  font-size: 30px;
+}
+
+
+  /* Style the footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  position: relative;
+}
